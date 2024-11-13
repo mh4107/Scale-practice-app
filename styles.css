@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text for visibility */
+}
+
+h1 {
+  margin-top: 20px;
+  color: #ffcc00; /* Bright yellow for the title */
+}
+
+#greyhound-image {
+  width: 150px;
+  margin: 10px auto;
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #ffcc00; /* Yellow border around the image */
+}
+
+/* Scale Generator Controls */
+#controls {
+  margin-top: 20px;
+}
+
+label {
+  color: #ffcc00; /* Yellow text for labels */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #333333; /* Dark button background */
+  color: #ffffff; /* White text */
+  border: 1px solid #ffcc00; /* Yellow border */
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555555; /* Lighter hover effect */
+}
+
+/* Metronome Controls */
+#metronome-controls {
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  width: 80px;
+  padding: 5px;
+  background-color: #333333; /* Dark input background */
+  color: #ffffff; /* White text */
+  border: 1px solid #ffcc00; /* Yellow border */
+  border-radius: 5px;
+}
+
+/* Result Display */
+#result {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #ffcc00; /* Yellow text for the result display */
+}
+
+  
